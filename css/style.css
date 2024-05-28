@@ -1,0 +1,346 @@
+body{
+    margin:0;
+}
+canvas{
+    display:block;
+}
+
+.flex-container-header{
+    display: flex;
+    flex-direction: in-line;
+    background-color: #9FBD9A;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+  
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+.flex-container-footer{
+    display: flex;
+    flex-direction: in-line;
+    background-color: #9FBD9A;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    color: #F0E4D0;
+  
+   
+}
+
+#home{
+    position: absolute;
+    left: 0px;
+    padding-left: 15px;
+    color: #F0E4D0;
+   
+}
+
+#home:hover{
+    text-decoration: none;
+    color: #D6A441;
+    font-size: 30px;
+}
+
+#menu{
+    position: absolute;
+    left: 100px;
+}
+
+#menu:hover{
+    text-decoration: none;
+    background-color: #D6A441;
+    border-radius: 5px;
+}
+
+#about{
+    position: absolute;
+    left: 100px;
+    color: #F0E4D0;
+}
+
+#about:hover{
+    text-decoration: none;
+    color: #F0E4D0;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#contact{
+    position: absolute;
+    left: 300px;
+}
+
+#contact:hover{
+    text-decoration: none;
+    background-color: #D6A441;
+    border-radius: 5px;
+}
+
+#insta{
+    position: absolute;
+    right: 0px;
+    padding-right: 15px;
+
+}
+
+#facebook{
+    position: absolute;
+    right: 100px;
+
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #9FBD9A;
+
+   
+}
+
+h1{
+    font-family: 'Righteous', sans-serif;
+    font-size: 140px;
+    letter-spacing: .2rem;
+    color: #396346;
+    margin-top: 400px;
+    justify-content: left;
+    margin-left: 10px;
+    margin-right: auto;
+    
+}
+
+h2{
+    font-family: 'Jaldi', sans-serif;
+    font-size: 30px;
+    justify-content: left;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: -100px;
+    color: #F0E4D0;
+
+    
+}
+
+h3{
+    font-family: 'Jaldi', sans-serif;
+    font-size: 60px;
+   color: #F0E4D0;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+
+}
+
+h4{
+    font-family: 'Jaldi', sans-serif;
+    font-size: 60px;
+    color: #F0E4D0;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: auto;
+
+}
+
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #D6A441;
+
+}
+
+#coffee{
+    margin-left: auto;
+    margin-right: auto;
+  width: 80%;
+  height: 80vh;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#logo{
+    width: 20%;
+    height: 20vh;
+}
+
+
+
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+   background-color: #F2F0EB;
+    height: 500px;
+    border-radius: 10px;
+    display: none;
+  }
+  
+
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: #F2F0EB;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: none;
+  }
+  
+  .topnav a.icon {
+   background-color: #da407b;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #F2F0EB;
+   
+  }
+  
+  .active {
+
+    color: #F2F0EB;
+  }
+
+
+
+
+
+/* Media Queries */
+
+
+/* ---------------iphone 10 --------------*/
+
+@media (max-width: 475px) and (max-height: 812px) {
+    .flex-container-header {
+         display: none;
+     
+
+      
+     }
+
+     .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        background-color: #9FBD9A;
+        height: 500px;
+        border-radius: 50px;
+        display: block;
+        padding-bottom: 20px;
+      }
+      
+    
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Jaldi', sans-serif;
+        font-size: 17px;
+        display: block;
+        background-color: #9FBD9A;
+      }
+      
+      .topnav a.icon {
+       background-color: #9FBD9A;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #9FBD9A;
+       
+      }
+      
+      .active {
+    
+        color: #F2F0EB;
+      }
+
+
+.flex-container{
+    width: 100%;
+    height: 80vh;}
+
+
+      h1{
+        font-size: 80px;
+        margin-top: auto;
+      }
+
+
+h2{
+    font-size: 20px;
+    margin-top:0px;
+}
+
+h3{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+}
+
+
+h4{
+    font-size: 20px;
+    margin-top: auto;
+    padding-left: auto;
+}
+
+#home{
+    font-size: 20px;
+}
+
+#about{ 
+    font-size: 20px;
+
+}
+
+}
+
+
