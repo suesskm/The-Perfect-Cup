@@ -1,21 +1,24 @@
 body{
     margin:0;
+    height: 100%;
 }
 canvas{
     display:block;
 }
+
 
 .flex-container-header{
     display: flex;
     flex-direction: in-line;
     background-color: #9FBD9A;
     font-family: 'Jaldi', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     padding: 10px;
     height: 50px;
     width: 100%;
-    
-  
+    padding-top: 10px;
+    justify-content: center;
+
    
 }
 
@@ -33,7 +36,7 @@ a{
     font-family: 'Jaldi', sans-serif;
     font-size: 25px;
     padding: 10px;
-    height: 80px;
+    height: 30%;
     width: 100%;
     color: #F0E4D0;
   
@@ -41,46 +44,46 @@ a{
 }
 
 #home{
-    position: absolute;
-    left: 0px;
-    padding-left: 15px;
-    color: #F0E4D0;
+   /* position:absolute; */
+    padding: 10px;
+   
    
 }
 
 #home:hover{
-    text-decoration: none;
-    color: #D6A441;
-    font-size: 30px;
-}
-
-#menu{
-    position: absolute;
-    left: 100px;
-}
-
-#menu:hover{
     text-decoration: none;
     background-color: #D6A441;
     border-radius: 5px;
 }
 
 #about{
-    position: absolute;
-    left: 100px;
-    color: #F0E4D0;
+    /* position: absolute; */
+    padding: 10px;
+  
 }
 
 #about:hover{
     text-decoration: none;
-    color: #F0E4D0;
+    background-color: #D6A441;
     border-radius: 5px;
-    font-size: 30px;
+}
+
+#cafe{
+    /* position: absolute; */
+    padding: 10px;
+    
+}
+
+#cafe:hover{
+    text-decoration: none;
+    background-color: #D6A441;
+    border-radius: 5px;
 }
 
 #contact{
-    position: absolute;
-    left: 300px;
+    /* position: absolute; */
+    padding: 10px;
+   
 }
 
 #contact:hover{
@@ -89,59 +92,55 @@ a{
     border-radius: 5px;
 }
 
-#insta{
-    position: absolute;
-    right: 0px;
-    padding-right: 15px;
-
-}
-
-#facebook{
-    position: absolute;
-    right: 100px;
-
-}
 
 
 .flex-container{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    background-color: #9FBD9A;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    /* border: solid black;
+    border-radius: 20px; */
+    /* background-color: #9FBD9A; */
 
    
 }
 
 h1{
-    font-family: 'Righteous', sans-serif;
-    font-size: 140px;
+    font-family: 'Notable', sans-serif;
+    font-size: 80px;
     letter-spacing: .2rem;
     color: #396346;
-    margin-top: 400px;
-    justify-content: left;
-    margin-left: 10px;
-    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
     
 }
 
 h2{
-    font-family: 'Jaldi', sans-serif;
+    font-family: 'Unica One', sans-serif;
     font-size: 30px;
-    justify-content: left;
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: -100px;
-    color: #F0E4D0;
+    margin-top: -40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    padding-left: 20px;
+
+   
+    
+    color: black;
 
     
 }
 
 h3{
-    font-family: 'Jaldi', sans-serif;
+    font-family: 'Notable', sans-serif;
     font-size: 60px;
-   color: #F0E4D0;
-    justify-content: left;
+   color: #396346;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -151,9 +150,9 @@ h3{
 }
 
 h4{
-    font-family: 'Jaldi', sans-serif;
-    font-size: 60px;
-    color: #F0E4D0;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 20px;
+    color: black;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -175,7 +174,8 @@ h4{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: #D6A441;
+    background-color:#D6A441
+    
 
 }
 
@@ -195,12 +195,45 @@ h4{
 }
 
 
+.flex-container2{
+    display: block;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+   
 
+}
+
+
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    color: #F0E4D0;
+
+}
 
 .mobile-container {
     max-width: 480px;
     margin: auto;
-   background-color: #F2F0EB;
+   background-color: #396346;
     height: 500px;
     border-radius: 10px;
     display: none;
@@ -221,7 +254,7 @@ h4{
   }
   
   .topnav a.icon {
-   background-color: #da407b;
+   background-color: #F0E4D0;
     display: none;
     position: absolute;
     right: 0;
@@ -251,18 +284,24 @@ h4{
     .flex-container-header {
          display: none;
      
+     }
 
-      
+     .flex-container{
+        display: none;
      }
 
      .mobile-container {
-        max-width: 480px;
+        /* max-width: 475px; */
+        width: 100%;
         margin: auto;
-        background-color: #9FBD9A;
-        height: 500px;
+        /* background-color: orange; */
+        height: 100px;
         border-radius: 50px;
         display: block;
         padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 20px;
+        
       }
       
     
@@ -278,25 +317,27 @@ h4{
         font-family: 'Jaldi', sans-serif;
         font-size: 17px;
         display: block;
-        background-color: #9FBD9A;
+     
       }
       
       .topnav a.icon {
-       background-color: #9FBD9A;
+       
         display: block;
         position: absolute;
         right: 0;
         top: 0;
+    
       }
       
       .topnav a:hover {
-        background-color: #9FBD9A;
+
+        background-color: #F0E4D0;
        
       }
       
       .active {
     
-        color: #F2F0EB;
+        color: #F0E4D0;
       }
 
 
@@ -306,7 +347,7 @@ h4{
 
 
       h1{
-        font-size: 80px;
+        font-size: 40px;
         margin-top: auto;
       }
 
@@ -335,27 +376,10 @@ h4{
     padding-left: auto;
 }
 
-#home{
+#burger{
     font-size: 20px;
-}
-
-#about{ 
-    font-size: 20px;
-    left: 70px;
-
-}
-
-#insta{
-    position: absolute;
-    right: 0px;
-    padding-right: 30px;
-
-}
-
-#facebook{
-    position: absolute;
-    right: 100px;
-
+font-family: "Jaldi", sans-serif;
+width: 100%;
 }
 
 
