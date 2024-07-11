@@ -101,6 +101,7 @@ a{
 }
 
 
+
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -217,11 +218,43 @@ h5{
   height: 80vh;
   justify-content: center;
   border: solid black;
-  box-shadow: 50px 30px #1f3d1f;
+  box-shadow: 20px 20px #1f3d1f;
   object-fit: cover;
   object-position: 50% 50%;
+  border-radius: 10%;
 
 }
+
+#coffee-pages{
+  margin-left: auto;
+  margin-right: auto;
+width: 80%;
+height: 80vh;
+justify-content: center;
+border: solid black;
+box-shadow: 20px 20px #1f3d1f;
+object-fit: cover;
+margin-top: 20px;
+object-position: 50% 50%;
+border-radius: 10%;
+
+}
+
+
+#coffee-scroll{
+  margin-left: auto;
+  margin-right: auto;
+width: 80%;
+height: 80vh;
+justify-content: center;
+border: solid black;
+box-shadow: 20px 20px #1f3d1f;
+object-fit: cover;
+object-position: 50% 50%;
+
+
+}
+
 
 div.scrollmenu {
     
@@ -237,7 +270,8 @@ div.scrollmenu {
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    padding-bottom: 100px;
   }
   
   div.scrollmenu a:hover {
@@ -245,7 +279,20 @@ div.scrollmenu {
   }
   
 
+  
+  div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+   color: black;
+    width: 500px;
+    height: 10vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    margin-top: 100px;
+    background-color: green;
 
+}
 
 
   .flex-container-footer{
@@ -257,8 +304,10 @@ div.scrollmenu {
     height: 30%;
     width: 100%;
     color: #f8f6eb;
-    
-  
+    bottom: 0;
+    position: fixed;
+   
+   
    
 }
 
@@ -278,9 +327,10 @@ div.scrollmenu {
     margin-left: auto;
     margin-right: auto;
    border: solid #1f3d1f;
-   box-shadow: 50px 20px #1f3d1f;
+   box-shadow: 20px 20px #1f3d1f;
     color: #f8f6eb;
     margin-top: 100px;
+    border-radius: 10%;
 
 }
 
@@ -375,6 +425,43 @@ div.scrollmenu {
   
 
 
+}
+
+.our-story{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-story1{
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+  height: 100vh;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.our-story2{
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+  height: 100vh;
+
+  flex-wrap: wrap;
+  
+}
+
+.our-story3{
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+  height: 100vh;
+color: orange;
+  flex-wrap: wrap;
 }
 
 
