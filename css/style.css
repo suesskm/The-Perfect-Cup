@@ -538,17 +538,126 @@ button:hover{
 /* Media Queries */
 
 
-/* ---------------iphone 10 --------------*/
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .flex-container-header {
+      display: none;
+  }
+.flex-container{
+  display: none;
+}
 
-@media (max-width: 475px) and (max-height: 812px) {
-    .flex-container-header {
-         display: none;
-     
-     }
+  h1 {
+     display: none;
+  }
+  h2 {
+     display:none;
+  }
+  .flex-item-hours, .flex-item-hours2, .flex-item-hours3 {
+      width: 100%;
+      margin: 10px 0;
+  }
+  .our-story1, .our-story2, .our-story3 {
+      width: 100%;
+  }
+  #coffee, #coffee-pages, #coffee-scroll {
+      width: 100%;
+      height: auto;
+  }
 
-     .flex-container{
-        display: none;
-     }
+  .mobile-container {
+    /* max-width: 475px; */
+    width: 100%;
+    margin: auto;
+    /* background-color: orange; */
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+  }
+  
+
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'louiseregular', sans-serif;
+    font-size: 17px;
+    display: block;
+ 
+  }
+  
+  .topnav a.icon {
+   
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  
+  .topnav a:hover {
+
+    background-color: #f8f6eb;
+   
+  }
+  
+}
+  .active {
+
+    color: #f8f6eb;
+    font-size: 12px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .topnav a.icon {
+      display: block;
+  }
+  .topnav.responsive {
+      position: relative;
+  }
+  .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .topnav.responsive 
+  a {
+      float
+
+
+
 
      .mobile-container {
         /* max-width: 475px; */
@@ -591,176 +700,17 @@ button:hover{
       
       .topnav a:hover {
 
-        background-color: #F0E4D0;
+        background-color: #f8f6eb;
        
       }
       
+    }
       .active {
     
-        color: #F0E4D0;
+        color: #f8f6eb;
         font-size: 12px;
       }
 
 
-.flex-container{
-    width: 100%;
-    height: 80vh;}
 
-
-      h1{
-        font-size: 26px;
-        margin-top: auto;
-      }
-
-
-h2{
-    font-size: 25px;
-    margin-top:0px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h3{
-    font-size: 15px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: center;
-}
-
-
-h4{
-    font-size: 20px;
-    margin-top: auto;
-    padding-left: auto;
-}
-
-#burger{
-    font-size: 20px;
-font-family: "Jaldi", sans-serif;
-width: 100%;
-}
-
-
-}
-
-
-/* ---------------tablet --------------*/
-
-@media (max-width: 768px) and (max-height: 612px) {
-    .flex-container-header {
-         display: none;
-     
-
-      
-     }
-
-     .mobile-container {
-        max-width: 480px;
-        margin: auto;
-        background-color: #9FBD9A;
-        height: 500px;
-        border-radius: 50px;
-        display: block;
-        padding-bottom: 20px;
-      }
-      
-    
-      
-      .topnav #myLinks {
-        display: none;
-      }
-      
-      .topnav a {
-        color: black;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-family: 'Jaldi', sans-serif;
-        font-size: 17px;
-        display: block;
-        background-color: #9FBD9A;
-      }
-      
-      .topnav a.icon {
-       background-color: #9FBD9A;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      
-      .topnav a:hover {
-        background-color: #9FBD9A;
-       
-      }
-      
-      .active {
-    
-        color: #F2F0EB;
-      }
-
-
-.flex-container{
-    width: 100%;
-    height: 80vh;}
-
-
-      h1{
-        font-size: 80px;
-        margin-top: auto;
-      }
-
-
-h2{
-    font-size: 25px;
-    margin-top:0px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h3{
-    font-size: 15px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: center;
-}
-
-
-h4{
-    font-size: 20px;
-    margin-top: auto;
-    padding-left: auto;
-}
-
-#home{
-    font-size: 20px;
-}
-
-#about{ 
-    font-size: 20px;
-    left: 70px;
-
-}
-
-#insta{
-    position: absolute;
-    right: 0px;
-    padding-right: 30px;
-
-}
-
-#facebook{
-    position: absolute;
-    right: 100px;
-
-}
-
-
-}
-
-
+    }
