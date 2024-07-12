@@ -189,7 +189,7 @@ h4{
     margin-top: 0px;
     margin-bottom: auto;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 10px;
 
 }
@@ -399,6 +399,7 @@ div.scrollmenu {
     color: #f8f6eb;
     /* margin-top: 20px;
     margin-bottom: 20px; */
+    margin-left: 20px;
     
    
  
@@ -474,8 +475,33 @@ color: orange;
 
 .umbria{
   width: 100%;
+  height: 100vh;
+  background-color: #D6A441;
+}
+
+
+.contact{
+  width: 100%;
+  height: 70vh;
+  background-color: #D6A441;
+  color: white;
+  display: flex;
+  flex-direction: in-line;
+font-size: 30px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+justify-content: center;
+justify-content: space-around;
+margin-bottom: 50px;
+padding-top: 50px;
+
+ 
+}
+
+.contact2{
+  width: 100%;
   height: 50vh;
-  background-color: purple;
+  
+  color: white;
 }
 
 /* Media Queries */
