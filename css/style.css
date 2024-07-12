@@ -13,6 +13,13 @@ canvas{
   width: 100%;
 }
 
+/* Clearfix for parent container */
+.parent-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 .flex-container-header{
@@ -285,12 +292,12 @@ div.scrollmenu {
     padding: 4px;
    color: black;
     width: 500px;
-    height: 90vh;
+    height: 50vh;
     overflow-x: hidden;
     overflow-y: auto;
     text-align: justify;
     margin-top: 100px;
-    background-color: green;
+   
 
 }
 
@@ -305,7 +312,7 @@ div.scrollmenu {
     width: 100%;
     color: #f8f6eb;
     bottom: 0;
-    position: fixed;
+    /* position: fixed; */
    
    
    
@@ -464,6 +471,12 @@ color: orange;
   flex-wrap: wrap;
 }
 
+
+.umbria{
+  width: 100%;
+  height: 50vh;
+  background-color: purple;
+}
 
 /* Media Queries */
 
