@@ -194,11 +194,20 @@ h4{
 
 }
 
+#burger{
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
 h5{
   font-family: "Space Mono", sans-serif;
   font-size: 16px;
   margin-bottom: 0px;
 }
+
+
+
 
 .flex-container2{
     display: flex;
@@ -361,7 +370,7 @@ div.scrollmenu {
     color: #f8f6eb;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
     display: none;
   }
   
@@ -558,12 +567,17 @@ button:hover{
       margin: 10px 0;
   }
   .our-story1, .our-story2, .our-story3 {
-      width: 100%;
+      width: 90%;
   }
   #coffee, #coffee-pages, #coffee-scroll {
-      width: 100%;
+      width: 90%;
       height: auto;
   }
+
+
+h3{
+  font-size: 30px;
+}
 
   .mobile-container {
     /* max-width: 475px; */
@@ -590,7 +604,7 @@ button:hover{
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'louiseregular', sans-serif;
-    font-size: 17px;
+    font-size: 30px;
     display: block;
  
   }
@@ -619,7 +633,6 @@ button:hover{
 
 
 
-}
 
 
 
@@ -629,7 +642,8 @@ button:hover{
 
 
 
-}
+
+
 
 
 
