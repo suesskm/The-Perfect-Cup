@@ -9,6 +9,15 @@ canvas{
   box-sizing: border-box;
 }
 
+
+table{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+}
+
+
 .parent-container {
   width: 100%;
 }
@@ -726,5 +735,7 @@ h3{
       }
 
 
+
+      
 
     }
