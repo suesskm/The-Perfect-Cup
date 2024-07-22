@@ -471,14 +471,20 @@ div.scrollmenu {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 .our-story2{
   display: flex;
   flex-direction:column;
   width: 50%;
-  height: 100vh;
+  height: 60vh;
+  border: solid #1f3d1f;
+  box-shadow: 20px 20px #1f3d1f;
+   color: #f8f6eb;
+   margin-top: 100px;
+   border-radius: 10%;
+margin-right: auto;
 
   flex-wrap: wrap;
   
@@ -601,6 +607,9 @@ button:hover{
   #coffee, #coffee-pages, #coffee-scroll {
       width: 90%;
       height: auto;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
   }
 
 
@@ -764,6 +773,7 @@ h3{
 .flex-container4{
   position: relative;
   margin-left: 20px;
+  padding-bottom: 40px;
 }
 
   .flex-container-footer{
@@ -824,6 +834,10 @@ h3{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  
   }
 
 
@@ -837,5 +851,16 @@ h3{
 p{ 
   font-size: 12px;
 }
+
+
+
+#coffee, #coffee-pages, #coffee-scroll {
+  width: 90%;
+  height: auto;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
     }
