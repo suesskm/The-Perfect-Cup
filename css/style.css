@@ -578,7 +578,11 @@ border-radius: 20px;
 button:hover{
   color:#D6A441;
 }
+
+
+
 /* Media Queries */
+
 
 
 /* Media Queries */
@@ -858,7 +862,7 @@ p{
 
 
 #coffee, #coffee-pages, #coffee-scroll {
-  width: 95%;
+  width: 100;
   height: auto;
   justify-content: center;
   margin-left: auto;
