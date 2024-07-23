@@ -477,17 +477,16 @@ div.scrollmenu {
 .our-story2{
   display: flex;
   flex-direction:column;
-  width: 50%;
+  width: 40%;
   height: 60vh;
-  border: solid #1f3d1f;
-  box-shadow: 20px 20px #1f3d1f;
+
    color: #f8f6eb;
    margin-top: 100px;
-   border-radius: 10%;
-margin-right: auto;
 
+margin-right: auto;
+text-align: center;
   flex-wrap: wrap;
-  
+
 }
 
 .our-story3{
@@ -837,15 +836,15 @@ h3{
   }
 
 
-  .our-story, .our-story1, .our-story2, .our-story3{
+  .our-story, .our-story1, .our-story2, .our-story3,.scroll{
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
-    margin-bottom: 25px;
-    margin-top: 25px;
+ 
+    
   
   }
 
@@ -854,7 +853,7 @@ h3{
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
+
 }
 
 p{ 
@@ -864,12 +863,13 @@ p{
 
 
 #coffee, #coffee-pages, #coffee-scroll {
-  width: 90%;
+  width: 100%;
   height: auto;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
     }
