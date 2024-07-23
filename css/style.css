@@ -779,6 +779,7 @@ h3{
   position: relative;
   margin-left: 20px;
   padding-bottom: 40px;
+
 }
 
   .flex-container-footer{
@@ -790,8 +791,8 @@ h3{
     font-size: 10px;
   }
 
-
-  .flex-container-footer,
+ 
+  .flex-container-footer,          
   .contact,
   .our-story {
       display: flex;
@@ -866,10 +867,11 @@ p{
 
 #coffee, #coffee-pages, #coffee-scroll {
   width: 100%;
-  height: 40vh;
+  height: auto;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
 
 }
 
