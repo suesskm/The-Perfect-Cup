@@ -809,11 +809,20 @@ h3{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
   }
+
+.contact{
+  margin-top: 0;
+}
 
   #map{
     width: 30%;
     height: 100vh;
+  }
+
+  #umbria{
+    margin-bottom: 0;
   }
 
   .our-story1 img {
