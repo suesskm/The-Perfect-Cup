@@ -849,12 +849,7 @@ h3{
   }
 
 
-#coffee{
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
 
-}
 
 p{ 
   font-size: 12px;
@@ -863,13 +858,19 @@ p{
 
 
 #coffee, #coffee-pages, #coffee-scroll {
-  width: 100%;
+  width: 95%;
   height: auto;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+
 }
 
-
+.scroll{
+  width: 80%;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+}
 
     }
