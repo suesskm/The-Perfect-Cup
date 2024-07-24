@@ -774,6 +774,9 @@ h3{
   
     .flex-container-footer{
       font-size: 10px;
+      justify-content: center;
+      padding: 5px;
+      margin:0;
     }  
     
     .flex-item-hours{
@@ -814,7 +817,7 @@ h3{
     height: auto;
   }
   
-    .our-story1, .our-story2, .our-story3{
+    .our-story2, .our-story3{
       flex-wrap: nowrap;
       flex-direction: column;
       justify-content: center;
@@ -840,7 +843,7 @@ h3{
     height: auto;
     text-align: left;
     overflow: visible;
-    background: purple;
+    
     flex-wrap: wrap;
 }
 
@@ -848,18 +851,18 @@ h3{
 .our-story {
     display: flex;
     flex-direction: column; /* Use flex-direction for column layout */
-    height: 50vh;
+    height: auto;
     flex-wrap: wrap;
-    background-color: cyan;
+    
 }
 
 #food {
-    display: none; /* Hide element */
+    display: none; 
 }
 
 .umbria {
     width: 100%;
-    height: auto;
+    height: 50vh;
 }
 
 h3 {
