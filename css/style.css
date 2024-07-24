@@ -249,8 +249,23 @@ h5{
   object-fit: cover;
   object-position: 50% 50%;
   border-radius: 10%;
-
+margin-top: 20px;
 }
+
+#food{
+  margin-left: auto;
+  margin-right: auto;
+width: 80%;
+height: 80vh;
+justify-content: center;
+border: solid black;
+box-shadow: 20px 20px #1f3d1f;
+object-fit: cover;
+object-position: 50% 50%;
+border-radius: 10%;
+margin-top: 20px;
+}
+
 
 #coffee-pages{
   margin-left: auto;
@@ -322,6 +337,7 @@ object-position: 50% 50%;
    
 
 }
+
 
 
   .flex-container-footer{
@@ -788,18 +804,21 @@ h3{
       height: 100vh;
     }
   
-    
   
+  #coffee{
+    width: 80%;
+    height: auto;
+  }
   
-    .our-story, .our-story1, .our-story2, .our-story3,.scroll{
+    .our-story, .our-story1, .our-story2, .our-story3{
       flex-wrap: nowrap;
       flex-direction: column;
       justify-content: center;
-  
-  
+      align-items: center;
+      display: flex;
+
     
     }
-  
 
   
   p{ 
@@ -809,21 +828,42 @@ h3{
   
   
   
-  .scroll{
-    width: 80%;
-    flex-direction: column;
-    display: flex;
-    flex-wrap: nowrap;
-    height: auto;
+    .scroll {
+      margin: 0 auto; /* Center horizontally */
+      padding: 0;
+      color: black;
+      width: 100%;
+      height: auto; /* Adjust height as needed */
+      text-align: left; /* Center text */
+      display: inline-block;
+      overflow: visible;
+
+  
+    }
+
+#food{
+  display:none;
+}
+
+
   }
   
+ 
+
+
+
+  
+    
+
+
   
   
   
   
   
   
+      
   
-      }
-  
+
+
   
