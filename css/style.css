@@ -116,7 +116,10 @@ a{
     flex-wrap: nowrap;
 }
 
-
+#map{
+  width: auto;
+  height: auto;
+}
 
 .flex-container{
     display: flex;
@@ -792,8 +795,7 @@ h3{
   
   
     #map{
-      width: 30%;
-      height: 100vh;
+   padding: 20px;
     }
   
   
@@ -879,6 +881,7 @@ h3 {
   margin-top: auto;
   margin-bottom: auto;
   height: auto;
+
   
 
 
@@ -889,6 +892,7 @@ h3 {
    margin-top:auto;
    margin-bottom: auto;
    /* box-shadow: 5px 5px #1f3d1f; */
+ 
   
 
 }
@@ -901,10 +905,12 @@ h3 {
    text-align: center;
    padding: 10px;
   
+
+  
 }
 
 .contact{
-  display: flex;
+  display: none;
   flex-direction: column;
   font-size: 24px;
   align-items: center;
