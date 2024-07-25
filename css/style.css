@@ -298,61 +298,43 @@ object-position: 50% 50%;
 }
 
 
-.scrollmenu {
-    
-    overflow: hidden;
-    white-space: nowrap;
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
 
-    background-color:#1f3d1f;
-  }
-  
-  .scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    scrollbar-color: #1f3d1f;
-  }
-  
-  .scrollmenu a:hover {
-    background-color: #1f3d1f;
-  }
-  
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
 
-  
-  .scroll {
-    margin: 4px, 4px;
-    padding: 4px;
-   color: black;
-    width: 500px;
-    height: auto;
-    overflow-x: hidden;
-    overflow-y: auto;
-  
-    scrollbar-color: #1f3d1f;
-   
-
+div.scrollmenu a:hover {
+  background-color: #777;
 }
 
 
 
-  .flex-container-footer{
-    display: flex;
-    flex-direction: in-line;
-    background-color: #1f3d1f;
-    font-size: 25px;
-    padding: 10px;
-    height: 30%;
-    width: 100%;
-    color: #f8f6eb;
-    bottom: 0;
-    justify-content: space-around;
-    /* position: fixed; */
-   
-   
-   
+
+
+
+.flex-container-footer {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  background-color: #1f3d1f;
+  font-size: 25px;
+  padding: 10px;
+  height: 30%;
+  width: 100%;
+  color: #f8f6eb;
+  bottom: 0;
+  justify-content: space-around;
+  /* position: fixed; Optional if you want it fixed at the bottom */
 }
+
 
 
 
@@ -818,6 +800,15 @@ h3{
   #coffee{
     width: 80%;
     height: auto;
+    box-shadow: 10px 10px #1f3d1f;
+   
+  
+  }
+
+  #coffee-pages{
+    width: 80%;
+    height: auto;
+    box-shadow: 5px 5px #1f3d1f;
   }
   
     .our-story2, .our-story3{
@@ -846,7 +837,7 @@ h3{
     height: auto;
     text-align: left;
     overflow: visible;
-    
+    margin-bottom: 50px;
     flex-wrap: wrap;
 }
 
@@ -888,6 +879,7 @@ h3 {
   margin-top: auto;
   margin-bottom: auto;
   height: auto;
+  
 
 
 }
@@ -896,12 +888,30 @@ h3 {
   height: auto;
    margin-top:auto;
    margin-bottom: auto;
+   /* box-shadow: 5px 5px #1f3d1f; */
+  
 
 }
 
+.our-story3{
+  height: auto;
+   margin-top:auto;
+   margin-bottom: auto;
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+  
+}
 
-
-
+.contact{
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+}
 
   }
   
