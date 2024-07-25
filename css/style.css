@@ -796,6 +796,7 @@ h3{
   
     #map{
    padding: 20px;
+
     }
   
   
@@ -826,9 +827,13 @@ h3{
   
   p{ 
     font-size: 12px;
+    justify-content: center;
   }
   
-  
+  h4{
+    display: block;
+    justify-content: center;
+  }
   
   .scroll {
     display: block; /* Ensure block-level display for vertical stacking */
@@ -882,7 +887,7 @@ h3 {
   margin-bottom: auto;
   height: auto;
 
-  
+  width: 100%;
 
 
 }
@@ -892,7 +897,9 @@ h3 {
    margin-top:auto;
    margin-bottom: auto;
    /* box-shadow: 5px 5px #1f3d1f; */
- 
+
+ width: 100%;
+ padding: 10px;
   
 
 }
@@ -904,6 +911,7 @@ h3 {
    align-items: center;
    text-align: center;
    padding: 10px;
+   width: 100%;
   
 
   
