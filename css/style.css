@@ -136,6 +136,9 @@ a{
    
 }
 
+
+
+
 @font-face {
   font-family: 'louiseregular';
   src: url('../media/fonts/louise-regular-webfont.woff2') format('woff2'),
@@ -321,7 +324,13 @@ div.scrollmenu a:hover {
 
 
 
-
+.scroll {
+  overflow-y: auto;
+  height: 200px; /* Adjust the height as needed */
+  border: 1px solid #ccc; /* Optional: for visual debugging */
+  display: block;
+  width: 100%;
+}
 
 
 .flex-container-footer {
@@ -571,6 +580,9 @@ padding-top: 20px;
 padding-bottom: 20px;
 }
 
+.scroll{
+  display: flex;
+}
 
 
 button{
@@ -935,7 +947,17 @@ h3 {
 
   
     
-
+  @media screen and (max-width: 768px) {
+    .scroll {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .scroll {
+      display: block;
+    }
+  }
 
   
   
