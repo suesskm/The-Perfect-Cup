@@ -609,7 +609,16 @@ padding-bottom: 20px;
 }
 
 .scroll{
-  display: flex;
+  display: block; /* Ensure block-level display for vertical stacking */
+  margin: 0;
+  padding: 10px;
+  color: black;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  overflow: visible;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 
