@@ -283,6 +283,7 @@ h5{
   object-position: 50% 50%;
   border-radius: 10%;
 margin-top: 20px;
+margin-bottom: 20px;
 }
 
 #food{
@@ -498,6 +499,7 @@ div.scrollmenu a:hover {
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .umbria{
@@ -517,6 +519,7 @@ div.scrollmenu a:hover {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
+  
 
 }
 
@@ -533,7 +536,7 @@ div.scrollmenu a:hover {
 margin-right: auto;
 text-align: center;
   flex-wrap: wrap;
-
+ 
 }
 
 .our-story3{
