@@ -857,7 +857,7 @@ h3{
     height: auto;
     box-shadow: 10px 10px #1f3d1f;
     object-fit: cover;
-   
+    object-position: 50% 50%;
   
   }
 
