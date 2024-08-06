@@ -857,14 +857,19 @@ h3{
     height: auto;
     box-shadow: 10px 10px #1f3d1f;
     object-fit: cover;
-    object-position: 50% 50%;
+    object-position: 50% 100%;
   
   }
+
+
+
 
   #coffee-pages{
     width: 80%;
     height: auto;
     box-shadow: 5px 5px #1f3d1f;
+    object-fit: cover;
+    object-position: 50% 50%;
   }
   
     .our-story2, .our-story3{
@@ -877,6 +882,10 @@ h3{
     
     }
 
+    .flex-container3{
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
   
   p{ 
     font-size: 12px;
@@ -979,6 +988,10 @@ h3 {
   padding: 0;
   justify-content: space-evenly;
 }
+
+
+
+
 
   }
   
